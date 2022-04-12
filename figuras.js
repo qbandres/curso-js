@@ -5,11 +5,15 @@ console.group("Cuadrados");
 const ladocuadrado = 5;
 console.log("Los lados del cuadrado miden :" + ladocuadrado + " mts")
 
-const perimetroCuadrado = ladocuadrado*4;
-console.log("El perimetro del cuadrado es : "+ perimetroCuadrado + " mts");
+function perimetroCuadrado(lado){
+    return lado*4
+}
+//console.log("El perimetro del cuadrado es : "+ perimetroCuadrado + " mts");
 
-const areaCuadrado = ladocuadrado*ladocuadrado;
-console.log("El área del cuadrado es : "+areaCuadrado +" m2")
+function areaCuadrado(lado){
+    return lado*lado
+}
+//console.log("El área del cuadrado es : "+areaCuadrado +" m2")
 
 console.groupEnd()
 
